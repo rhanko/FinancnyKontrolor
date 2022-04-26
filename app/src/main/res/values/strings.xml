@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Finančný Kontrolór</string>
+    <string name="id_data">ID</string>
+    <string name="amount">amount</string>
+    <string name="date">date</string>
+    <string name="description">description</string>
+</resources>
