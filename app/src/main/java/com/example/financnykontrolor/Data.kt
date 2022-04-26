@@ -19,7 +19,7 @@ class Data(
     amountl: Int = 0,
     datel: LocalDateTime = LocalDateTime.now(),
     descriptionl: String = "1")
-    {
+{
     val id = idl
     var type = typel
     var category = categoryl
@@ -32,12 +32,13 @@ class Data(
     */
     fun getDate(): String
     {
-        return ( "" + date.dayOfMonth +
-                "." + date.monthValue +
-                "." + date.year +
-                " " + date.hour +
-                ":" + date.minute +
-                ":" + date.second)
+        return(
+            "" + date.dayOfMonth +
+            "." + date.monthValue +
+            "." + date.year +
+            " " + date.hour +
+            ":" + date.minute +
+            ":" + date.second)
     }
 
     /**
@@ -49,7 +50,8 @@ class Data(
         if (description != "")
         {
             return ("id: $id\n\t$typeName - $category\n\tamount: $amount\n\tdate: ${getDate()}\n\tdescription: $description")
-        } else
+        }
+        else
         {
             return ("id: $id\n\t$typeName - $category\n\tamount: $amount\n\tdate: ${getDate()}")
         }

@@ -1,7 +1,7 @@
 package com.example.financnykontrolor
 
 /**
- * Category - enum class, TODO()
+ * Category - enum class Category to category of income or expense of money
  */
 enum class Category {
     SALARY, ALLOWANCE,                                  //income
