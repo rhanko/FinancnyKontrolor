@@ -1,4 +1,4 @@
-package com.example.financnykontrolor
+package com.example.financnykontrolor.database
 
 /**
  * Category - enum class Category to category of income or expense of money
