@@ -1,9 +1,13 @@
 <resources>
     <string name="app_name">Finančný Kontrolór</string>
     <string name="id_data">ID</string>
-    <string name="amount">amount</string>
-    <string name="date">date</string>
-    <string name="description">description</string>
+    <string name="amount">Suma</string>
+    <string name="date">Dátum</string>
+    <string name="description">Popis</string>
+    <string name="graph">Graf</string>
+    <string name="add_data">Pridať</string>
+    <string name="show_data">Zobraziť</string>
+    <string name="settings">Nastavenia</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
