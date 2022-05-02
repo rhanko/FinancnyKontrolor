@@ -1,9 +1,40 @@
 <resources>
     <string name="app_name">Finančný Kontrolór</string>
-    <string name="id_data">ID</string>
-    <string name="amount">amount</string>
-    <string name="date">date</string>
-    <string name="description">description</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="graph">Graf</string>
+    <string name="add_data">Pridať</string>
+    <string name="show_data">Zobraziť</string>
+    <string name="settings">Nastavenia</string>
+    <string name="aboutFragment">O nás</string>
+
+    <string name="id_data">ID</string>
+    <string name="amount">Suma</string>
+    <string name="date">Dátum</string>
+    <string name="description">Popis</string>
+    <string name="type">Typ</string>
+    <string name="income">Príjem</string>
+    <string name="expense">Výdavky</string>
+    <string name="category">Kategória</string>
+
+    <string name="error">Chyba</string>
+    <string name="error_message">
+        Nastala chyba, skontrolujte si
+        \n - Suma je zadaná
+        \n - Dátum je v správnom formáte
+        \n - Kategória je zadaná</string>
+    <string name="info">Info</string>
+    <string name="reinitialization_message">
+        Reinicializácia prebehla úspešne
+    </string>
+    <string name="ok">Pokračovať</string>
+
+    <string name="date_format">dd/MM/yyyy HH:mm:ss</string>
+    <string name="amount_format">0.00</string>
+    <string name="currency">€</string>
+    <string name="no_date">(Dátum nebol zadaný)</string>
+    <string name="delete_data_message">Naozaj chceš vymazať tieto údaje?</string>
+    <string name="delete_data">Vymazať údaje</string>
+
+
 </resources>
