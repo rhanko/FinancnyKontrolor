@@ -1,0 +1,33 @@
+package com.example.financnykontrolor.fragments.mainFragment
+
+import android.app.Application
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.ViewModelProvider
+import com.example.financnykontrolor.database.DataDatabaseDao
+
+/**
+ * ViewModelProvider factory for MainViewModel
+ *
+ * @property dataSource database
+ * @property application application of the activity
+ * @property fragment fragment of MainDataFragment
+ */
+class MainViewModelFactory(
+    private val dataSource: DataDatabaseDao,
+    private val application: Application,
+    private val fragment: MainFragment) : ViewModelProvider.Factory {
+
+    /**
+     * create MainViewModel
+     * @param T type of class
+     * @param modelClass model of the class
+     * @return view model class
+     */
+    @Suppress("unchecked_cast")
+    override fun <T : ViewModel> create(modelClass: Class<T>): T {
+        if (modelClass.isAssignableFrom(MainViewModel::class.java)) {
+            return MainViewModel(dataSource, application, fragment) as T
+        }
+        throw IllegalArgumentException("Unknown ViewModel class")
+    }
+}
